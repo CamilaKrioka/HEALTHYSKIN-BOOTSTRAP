@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000H\u0000E\u0000A\u0000L\u0000T\u0000H\u0000Y\u0000S\u0000K\u0000I\u0000N\u0000-\u0000B\u0000O\u0000O\u0000T\u0000S\u0000T\u0000R\u0000A\u0000P\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamilaKrioka/HEALTHYSKIN-BOOTSTRAP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CamilaKrioka/HEALTHYSKIN-BOOTSTRAP/issues"
+  },
+  "homepage": "https://github.com/CamilaKrioka/HEALTHYSKIN-BOOTSTRAP#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

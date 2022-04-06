@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif !important;
+  background-image: url("./img/fondo1.webp");
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.navbar__estilos {
+  background-color: #f2c2bd;
+}
+
+button.sesion {
+  white-space: nowrap !important;
+  margin-right: 2rem;
+}
+
+.navbar__toggler__icon {
+  width: 2em;
+  height: 2em;
+}
+
+.navbar__logo {
+  margin-right: 0px;
+}
+
+.navbar__titulo {
+  padding-left: 1rem;
+}
+
+.carousel___contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.carousel___contenedor {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.card__single {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f2c2bd;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem;
+}
+
+.card__single:hover {
+  -webkit-box-shadow: 1px 1px 3px 1px grey;
+          box-shadow: 1px 1px 3px 1px grey;
+  -webkit-transform: translate(5px, 5px);
+          transform: translate(5px, 5px);
+}
+
+.card__single img {
+  width: 70%;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f2c2bd;
+  margin-top: 20px;
+  height: 80px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-items li {
+  list-style: none;
+  margin: 20px;
+  padding: 50px;
+}
+
+.titulo-a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 900;
+  font-size: 25px;
+  background-color: #bba3e6;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  margin-top: 30px;
+  color: whitesmoke;
+}
+
+.contenedor-tutoriales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.cajas-tutoriales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+  font-weight: 500;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#tutorial__titulo {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
