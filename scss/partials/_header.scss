@@ -1,0 +1,32 @@
+.titulo__principal{
+    &:hover {
+        background-color: $color-secundario;
+        border-radius: 5px;
+        box-shadow: 1px 1px 3px 1px grey;
+        transform: translate(5px, 5px);   
+}
+
+}
+
+//aplico mapa
+.navbar__estilos{
+background-color: map-get($colores , color-primario);
+
+}
+button.sesion{
+white-space: nowrap !important;
+margin-right: 2rem;
+}
+
+.navbar__toggler__icon{
+    width: 2em;
+    height: 2em;
+}
+
+.navbar__logo {
+    margin-right: 0px;
+}
+
+.navbar__titulo{
+    padding-left: 1rem;
+}

@@ -11,7 +11,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../css/main.css" />
     <script
     src="https://kit.fontawesome.com/5b6997b430.js"
     crossorigin="anonymous"
@@ -22,9 +22,9 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light navbar__estilos">
         <div class="container-fluid">
-          <a class="navbar-brand navbar__logo" href="index.html">
+          <a class="navbar-brand navbar__logo" href="../index.html">
             <img
-              src="./img/logo.png"
+              src="../img/logo.png"
               alt="logo"
               width="90"
               height="70"
@@ -55,21 +55,21 @@
                   
                 </a>
                 <ul
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <li><a class="dropdown-item" href="./productos.html">Productos</a></li>
-                  <li><a class="dropdown-item" href="#"> Articulo mas votado</a></li>
-                  <li><a class="dropdown-item" href="./tutoriales.html"> Tutoriales</a></li>
-                  <li><a class="dropdown-item" href="./adquirir-productos.html"> Adquirir productos</a></li>
-                  <li><a class="dropdown-item" href="./rutinas-armadas.html"> Rutinas armadas</a></li>
-                <li> <a class="dropdown-item" href="./contacto.html"> Contacto</a></li>
-                <li></li>
-                  </li>
-                </ul>
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="./productos.html">Productos</a></li>
+                <li><a class="dropdown-item" href="./articulos-mas-votados.html"> Articulo mas votado</a></li>
+                <li><a class="dropdown-item" href="./tutoriales.html"> Tutoriales</a></li>
+                <li><a class="dropdown-item" href="./adquirir-productos.html"> Adquirir productos</a></li>
+                <li><a class="dropdown-item" href="./rutinas-armadas.html"> Rutinas armadas</a></li>
+              <li> <a class="dropdown-item" href="./contacto.html"> Contacto</a></li>
+              <li></li>
+                </li>
+              </ul>
               
             </ul>
-            <a class="navbar-brand navbar__titulo" href="index.html">HEALTHYSKIN</a>
+            <a class="navbar-brand navbar__titulo titulo__principal" href="../index.html">HEALTHYSKIN</a>
           </div>
           </div>
         <!-- <div class="sesion">
@@ -80,24 +80,39 @@
     Iniciar sesion/Registrarse
   </button>
   
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Iniciar sesion / Registrarse</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Iniciar sesion / Registrarse</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email </label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Recuerdame</label>
+              </div>
+              <button type="submit" class="btn btn-primary boton__inicio ">Iniciar sesion</button>
+            </form>
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn btn-primary boton__registro">¿Aun no tiene una cuenta? REGISTRATE</button>
       </div>
     </div>
   </div>
+</div>
       </nav>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -111,8 +126,9 @@
           <span class="navbar-brand mb-0 h1 ">TUTORIALES</span>
         </div>
       </nav>
-      <div class="contenedor-tutoriales">
-        <div class="cajas-tutoriales">
+      <div class="contenedor-tutoriales container">
+        <div class="row">
+        <div class="cajas-tutoriales col">
           <iframe
             width="560"
             height="315"
@@ -124,7 +140,7 @@
           ></iframe>
           <p>RUTINA COREANA 10 PASOS</p>
         </div>
-        <div class="cajas-tutoriales">
+        <div class="cajas-tutoriales col">
           <iframe
             width="560"
             height="315"
@@ -152,16 +168,16 @@
   
           <li>
             <a href="https://www.facebook.com/"
-              ><i class="fa-brands fa-facebook"></i
+              ><i class="fa-brands fa-facebook logos"></i
             ></a>
           </li>
           <li>
             <a href="https://www.instagram.com/?hl=es-la"
-              ><i class="fa-brands fa-instagram"></i
+              ><i class="fa-brands fa-instagram logos"></i
             ></a>
           </li>
           <li>
-            <i class="fa-solid fa-laptop-code"></i>
+            <i class="fa-solid fa-laptop-code logos"></i>
           </li>
           <li>
             <p>BY: CAMILA KRIOKA</p>

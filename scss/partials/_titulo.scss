@@ -1,0 +1,17 @@
+.titulo-a{
+
+  
+    
+    font-weight: 900;
+    font-size: 25px;
+    background-color: $color-secundario;
+    
+    padding: 20px;
+    
+    color: $color-clarito;
+  }
+
+  .titulo-a{
+    //aplico mixin
+  @include propiedades(flex, center, 30px)
+  }

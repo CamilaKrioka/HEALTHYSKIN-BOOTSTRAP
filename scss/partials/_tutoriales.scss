@@ -1,0 +1,16 @@
+.contenedor-tutoriales{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .cajas-tutoriales{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-weight: 500;
+    align-items: center;
+  }
+    
+#tutorial__titulo{
+    justify-content: center;
+}

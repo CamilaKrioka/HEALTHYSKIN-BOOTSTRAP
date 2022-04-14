@@ -1,0 +1,7 @@
+@mixin propiedades($display , $justify, $margin){
+    display: $display;
+    justify-content: $justify;
+    margin-top: $margin;
+}
+
+//lo aplico en el archivo _titulo.scss

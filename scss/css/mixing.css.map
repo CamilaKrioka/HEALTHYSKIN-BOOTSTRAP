@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../partials/mixing.scss"
+    ],
+    "names": [],
+    "file": "mixing.css"
+}

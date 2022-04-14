@@ -1,0 +1,29 @@
+.contenedor__articulos{
+    display: flex;
+}
+
+.titulos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.columna__imagen{
+    img{
+        width: 90%;
+        padding-top: 50px;
+    }
+}
+
+.columna__texto{
+ font-family: $fuente !important;
+ margin-top: 50px;
+}
+
+.columna__aside{
+background-color: $color_primario;
+height: fit-content;
+margin-top: 100px;
+}

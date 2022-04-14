@@ -1,0 +1,22 @@
+.contendor__formulario{
+    display: flex;
+}
+
+.formulario__contacto{
+    display: flex;
+    margin-top: 50px;
+}
+
+.boton__envio__contacto{
+    margin-top: 20px;
+    justify-content: center !important;
+    background-color: $color-secundario;
+    &:hover{
+        background-color: $color-secundario-oscuro;
+    }
+}
+
+.contacto__redes{
+    
+    margin-top: 50px;
+}

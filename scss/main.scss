@@ -1,0 +1,23 @@
+@import "./partials/variables";
+@import "./partials/mapas";
+@import "./partials/extend";
+@import "./partials/mixin";
+
+@import "./partials/header";
+@import "./partials/modal";
+@import "./partials/carousel";
+@import "./partials/card";
+@import "./partials/footer";
+@import "./partials/titulo";
+@import "./partials/tutoriales";
+@import "./partials/productos";
+@import "./partials/carousel";
+@import "./partials/articulos__mas__votados";
+@import "./partials/adquirir__productos";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+

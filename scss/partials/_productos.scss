@@ -1,0 +1,52 @@
+.contenedor__navbar__productos{
+    display: flex;
+    
+}
+
+#navbar__productos{
+    background-color: $color-secundario;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    margin-top: 20px;
+    a{
+        font-size: 35px;
+        color: $color-clarito;
+        font-weight: 900;
+      }
+    .icono__lupa{
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+  }
+
+  .boton__productos__buscador{
+      border-color: grey;
+      color: $color-clarito;
+       &:hover{
+           background-color: $color-secundario-oscuro;
+           border-color: $color-secundario-oscuro;
+       }
+  }
+
+.contenedor-productos{
+    display: flex;
+}
+
+.productos-caja-single{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border-color: transparent;
+      align-items: center;
+      padding: 40px;
+      justify-content: center;
+      font-weight: bold;
+      transition: all 1s linear;
+      &:hover{
+        box-shadow: 1px 1px 3px 1px grey;
+        transform: translate(5px, 5px);
+      }
+   
+  }

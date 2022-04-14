@@ -1,0 +1,23 @@
+
+.boton__inicio{
+    background-color: $color-secundario;
+    border-color: $color-secundario;
+    &:hover{
+        background-color: $color-secundario-oscuro;
+        border-color: $color-secundario;
+    }
+}
+
+.modal-footer{
+    display: flex;
+    .boton__registro{
+    background-color: $color-secundario;
+    border-color: $color-secundario;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        background-color: $color-secundario-oscuro;
+        border-color: $color-secundario-oscuro;
+    }
+}
+}
